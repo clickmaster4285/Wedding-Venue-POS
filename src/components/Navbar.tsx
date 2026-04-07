@@ -14,7 +14,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/70 backdrop-blur-xl border-b border-border/50">
       <div className="container flex items-center justify-between h-16">
         <a href="#" className="font-serif text-xl font-bold text-primary">
-          Wedding Venue <span className="text-accent">POS</span>
+          Wedding Management System
         </a>
         {/* Desktop */}
         <div className="hidden md:flex items-center gap-8">
