@@ -20,7 +20,7 @@ const AboutSection = () => (
             <span className="gradient-gold-text">Management</span>
           </h2>
           <p className="mt-6 text-lg text-muted-foreground font-sans leading-relaxed">
-            Wedding Venue POS was born from a simple idea — wedding venues deserve
+            Wedding Management System was born from a simple idea — wedding venues deserve
             technology as elegant as the events they host. We combine deep
             industry expertise with cutting-edge software to deliver a platform
             that feels intuitive from day one.

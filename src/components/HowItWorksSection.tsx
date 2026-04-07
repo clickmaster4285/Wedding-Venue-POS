@@ -5,7 +5,7 @@ const steps = [
     icon: ClipboardList,
     step: "01",
     title: "Schedule a Demo",
-    description: "Book a personalized walkthrough with our team to understand how Wedding Venue POS fits your venue's unique needs.",
+    description: "Book a personalized walkthrough with our team to understand how Wedding Management System fits your venue's unique needs.",
   },
   {
     icon: Settings,

@@ -4,7 +4,7 @@ const testimonials = [
   {
     name: "Priya Sharma",
     role: "Owner, The Grand Mahal Banquets",
-    text: "Wedding Venue POS transformed how we manage our venue. Bookings that used to take hours now happen in minutes. Our revenue tracking is finally accurate and real-time.",
+    text: "Wedding Management System transformed how we manage our venue. Bookings that used to take hours now happen in minutes. Our revenue tracking is finally accurate and real-time.",
     rating: 5,
   },
   {
@@ -16,7 +16,7 @@ const testimonials = [
   {
     name: "Anita Desai",
     role: "Director, Bliss Wedding Halls",
-    text: "We've tried three different systems before Wedding Venue POS. Nothing comes close to this level of elegance and functionality. It truly understands the wedding business.",
+    text: "We've tried three different systems before Wedding Management System. Nothing comes close to this level of elegance and functionality. It truly understands the wedding business.",
     rating: 5,
   },
 ];

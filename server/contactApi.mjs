@@ -56,7 +56,7 @@ export function getContactRouter() {
         <head>
           <meta charset="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          <title>New Wedding Venue POS Contact</title>
+          <title>New Wedding Management System Contact</title>
         </head>
         <body style="margin:0;padding:0;background-color:#faf7f2;color:#2b2b2b;font-family:Inter,system-ui,sans-serif;">
           <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#faf7f2;padding:32px 16px;">
@@ -65,7 +65,7 @@ export function getContactRouter() {
                 <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;background:#ffffff;border-radius:24px;overflow:hidden;box-shadow:0 24px 72px rgba(43,40,30,0.08);border:1px solid rgba(139,74,122,0.18);">
                   <tr>
                     <td style="background:linear-gradient(135deg, #6b3a5e 0%, #8b4a7a 50%, #d4a853 100%);padding:32px 24px 28px;text-align:center;">
-                      <h1 style="margin:0;font-family:'Playfair Display',Georgia,serif;font-size:28px;font-weight:700;color:#ffffff;line-height:1.2;">Wedding Venue POS Demo Request</h1>
+                      <h1 style="margin:0;font-family:'Playfair Display',Georgia,serif;font-size:28px;font-weight:700;color:#ffffff;line-height:1.2;">Wedding Management System Demo Request</h1>
                       <p style="margin:14px 0 0;font-family:Inter,system-ui,sans-serif;font-size:15px;color:rgba(255,255,255,0.9);line-height:1.7;">A new venue request came in from your landing page contact form.</p>
                     </td>
                   </tr>
@@ -119,7 +119,7 @@ export function getContactRouter() {
                   </tr>
                   <tr>
                     <td style="background:linear-gradient(135deg, #6b3a5e 0%, #8b4a7a 100%);padding:24px;text-align:center;border-radius:0 0 24px 24px;">
-                      <p style="margin:0;font-family:Inter,system-ui,sans-serif;font-size:13px;line-height:1.65;color:rgba(255,255,255,0.75);">Sent from your Wedding Venue POS contact form.</p>
+                      <p style="margin:0;font-family:Inter,system-ui,sans-serif;font-size:13px;line-height:1.65;color:rgba(255,255,255,0.75);">Sent from your Wedding Management System contact form.</p>
                       <p style="margin:8px 0 0;font-family:Inter,system-ui,sans-serif;font-size:13px;line-height:1.65;color:rgba(255,255,255,0.75);">Powered by your configured SMTP settings.</p>
                     </td>
                   </tr>
@@ -133,7 +133,7 @@ export function getContactRouter() {
 
       await sendEmail({
         email: receiver,
-        subject: `[Wedding Venue POS] Message from ${name}`,
+        subject: `[Wedding Management System] Message from ${name}`,
         message: html,
         replyTo: email,
       });

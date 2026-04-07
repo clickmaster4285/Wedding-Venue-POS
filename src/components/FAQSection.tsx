@@ -3,12 +3,12 @@ import { ChevronDown } from "lucide-react";
 
 const faqs = [
   {
-    q: "How long does it take to set up Wedding Venue POS?",
+    q: "How long does it take to set up Wedding Management System?",
     a: "Most venues are fully onboarded within 3–5 business days. Our team handles configuration, data migration, and staff training so you can go live with confidence.",
   },
   {
     q: "Can I manage multiple event types, not just weddings?",
-    a: "Absolutely. While Wedding Venue POS is optimized for weddings, it works seamlessly for corporate events, receptions, birthday parties, and any venue-based gathering.",
+    a: "Absolutely. While Wedding Management System is optimized for weddings, it works seamlessly for corporate events, receptions, birthday parties, and any venue-based gathering.",
   },
   {
     q: "Is my data secure?",
@@ -16,10 +16,10 @@ const faqs = [
   },
   {
     q: "Do I need to install any software?",
-    a: "No. Wedding Venue POS is entirely cloud-based and runs in your browser. Access it from any device — desktop, tablet, or smartphone — with no downloads required.",
+    a: "No. Wedding Management System is entirely cloud-based and runs in your browser. Access it from any device — desktop, tablet, or smartphone — with no downloads required.",
   },
   {
-    q: "Can I integrate Wedding Venue POS with my existing tools?",
+    q: "Can I integrate Wedding Management System with my existing tools?",
     a: "Yes. We offer integrations with popular accounting software, payment gateways, and calendar tools. For Enterprise plans, we also build custom integrations tailored to your workflow.",
   },
   {
