@@ -128,6 +128,16 @@
   .animate-petal {
     animation: petalFall 10s linear infinite;
   }
+
+  .animate-vine-sway {
+    animation: vineSway 8s ease-in-out infinite;
+    transform-origin: top center;
+  }
+
+  .animate-vine-sway-alt {
+    animation: vineSwayAlt 10s ease-in-out infinite;
+    transform-origin: top center;
+  }
 }
 
 @keyframes fadeUp {
@@ -148,11 +158,56 @@
 
 @keyframes petalFall {
   0% {
-    transform: translateY(-10%) rotate(0deg) translateX(0);
+    transform: translateY(-10vh) translateX(0px) rotate(0deg) scale(1);
+    opacity: 0;
+  }
+  5% {
     opacity: 1;
   }
+  25% {
+    transform: translateY(25vh) translateX(30px) rotate(90deg) scale(0.95);
+  }
+  50% {
+    transform: translateY(50vh) translateX(-20px) rotate(200deg) scale(0.9);
+  }
+  75% {
+    transform: translateY(75vh) translateX(40px) rotate(310deg) scale(0.85);
+  }
+  95% {
+    opacity: 0.3;
+  }
   100% {
-    transform: translateY(110vh) rotate(720deg) translateX(100px);
+    transform: translateY(110vh) translateX(-15px) rotate(420deg) scale(0.8);
     opacity: 0;
+  }
+}
+
+@keyframes vineSway {
+  0%, 100% {
+    transform: translateX(0px) rotate(0deg);
+  }
+  25% {
+    transform: translateX(6px) rotate(0.8deg);
+  }
+  50% {
+    transform: translateX(-4px) rotate(-0.5deg);
+  }
+  75% {
+    transform: translateX(8px) rotate(1deg);
+  }
+}
+
+@keyframes vineSwayAlt {
+  0%, 100% {
+    transform: translateX(0px) rotate(0deg);
+  }
+  25% {
+    transform: translateX(-5px) rotate(-0.7deg);
+  }
+  50% {
+    transform: translateX(7px) rotate(0.6deg);
+  }
+  75% {
+    transform: translateX(-3px) rotate(-0.9deg);
   }
 }

@@ -58,13 +58,13 @@ export function getContactRouter() {
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <title>New Wedding Venue POS Contact</title>
         </head>
-        <body style="margin:0;padding:0;background-color:#f6f3ef;color:#2b2b2b;font-family:Inter,system-ui,sans-serif;">
-          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#f6f3ef;padding:32px 16px;">
+        <body style="margin:0;padding:0;background-color:#faf7f2;color:#2b2b2b;font-family:Inter,system-ui,sans-serif;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#faf7f2;padding:32px 16px;">
             <tr>
               <td align="center">
-                <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;background:#ffffff;border-radius:24px;overflow:hidden;box-shadow:0 24px 72px rgba(43,40,65,0.08);border:1px solid rgba(99,91,255,0.12);">
+                <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;background:#ffffff;border-radius:24px;overflow:hidden;box-shadow:0 24px 72px rgba(43,40,30,0.08);border:1px solid rgba(139,74,122,0.18);">
                   <tr>
-                    <td style="background:linear-gradient(135deg, #635bff 0%, #8b79ff 100%);padding:32px 24px 28px;text-align:center;">
+                    <td style="background:linear-gradient(135deg, #6b3a5e 0%, #8b4a7a 50%, #d4a853 100%);padding:32px 24px 28px;text-align:center;">
                       <h1 style="margin:0;font-family:'Playfair Display',Georgia,serif;font-size:28px;font-weight:700;color:#ffffff;line-height:1.2;">Wedding Venue POS Demo Request</h1>
                       <p style="margin:14px 0 0;font-family:Inter,system-ui,sans-serif;font-size:15px;color:rgba(255,255,255,0.9);line-height:1.7;">A new venue request came in from your landing page contact form.</p>
                     </td>
@@ -74,53 +74,53 @@ export function getContactRouter() {
                       <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
                         <tr>
                           <td style="padding-bottom:22px;">
-                            <div style="font-family:Inter,system-ui,sans-serif;font-size:12px;font-weight:700;color:#635bff;text-transform:uppercase;letter-spacing:0.18em;margin-bottom:8px;">Name</div>
+                            <div style="font-family:Inter,system-ui,sans-serif;font-size:12px;font-weight:700;color:#6b3a5e;text-transform:uppercase;letter-spacing:0.18em;margin-bottom:8px;">Name</div>
                             <div style="font-family:Inter,system-ui,sans-serif;font-size:16px;color:#1f1f1f;line-height:1.7;">${escapeHtml(name)}</div>
                           </td>
                         </tr>
                         <tr>
                           <td style="padding-bottom:22px;">
-                            <div style="font-family:Inter,system-ui,sans-serif;font-size:12px;font-weight:700;color:#635bff;text-transform:uppercase;letter-spacing:0.18em;margin-bottom:8px;">Email</div>
+                            <div style="font-family:Inter,system-ui,sans-serif;font-size:12px;font-weight:700;color:#6b3a5e;text-transform:uppercase;letter-spacing:0.18em;margin-bottom:8px;">Email</div>
                             <div style="font-family:Inter,system-ui,sans-serif;font-size:16px;line-height:1.7;">
-                              <a href="${emailHref}" style="color:#4d7cfe;text-decoration:none;">${escapeHtml(email)}</a>
+                              <a href="${emailHref}" style="color:#d4a853;text-decoration:none;font-weight:600;">${escapeHtml(email)}</a>
                             </div>
                           </td>
                         </tr>
                         <tr>
                           <td style="padding-bottom:22px;">
-                            <div style="font-family:Inter,system-ui,sans-serif;font-size:12px;font-weight:700;color:#635bff;text-transform:uppercase;letter-spacing:0.18em;margin-bottom:8px;">Venue</div>
+                            <div style="font-family:Inter,system-ui,sans-serif;font-size:12px;font-weight:700;color:#6b3a5e;text-transform:uppercase;letter-spacing:0.18em;margin-bottom:8px;">Venue</div>
                             <div style="font-family:Inter,system-ui,sans-serif;font-size:16px;color:#1f1f1f;line-height:1.7;">${escapeHtml(venue)}</div>
                           </td>
                         </tr>
                         <tr>
                           <td style="padding-bottom:22px;">
-                            <div style="font-family:Inter,system-ui,sans-serif;font-size:12px;font-weight:700;color:#635bff;text-transform:uppercase;letter-spacing:0.18em;margin-bottom:8px;">Phone</div>
+                            <div style="font-family:Inter,system-ui,sans-serif;font-size:12px;font-weight:700;color:#6b3a5e;text-transform:uppercase;letter-spacing:0.18em;margin-bottom:8px;">Phone</div>
                             <div style="font-family:Inter,system-ui,sans-serif;font-size:16px;color:#1f1f1f;line-height:1.7;">${escapeHtml(phone || "Not provided")}</div>
                           </td>
                         </tr>
                         <tr>
                           <td style="padding-bottom:22px;">
-                            <div style="font-family:Inter,system-ui,sans-serif;font-size:12px;font-weight:700;color:#635bff;text-transform:uppercase;letter-spacing:0.18em;margin-bottom:8px;">City</div>
+                            <div style="font-family:Inter,system-ui,sans-serif;font-size:12px;font-weight:700;color:#6b3a5e;text-transform:uppercase;letter-spacing:0.18em;margin-bottom:8px;">City</div>
                             <div style="font-family:Inter,system-ui,sans-serif;font-size:16px;color:#1f1f1f;line-height:1.7;">${escapeHtml(city || "Not provided")}</div>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <div style="font-family:Inter,system-ui,sans-serif;font-size:12px;font-weight:700;color:#635bff;text-transform:uppercase;letter-spacing:0.18em;margin-bottom:10px;">Message</div>
-                            <div style="background-color:#f4f1ff;border-radius:18px;padding:18px 20px;font-family:Inter,system-ui,sans-serif;font-size:15px;color:#2b2b2b;line-height:1.8;white-space:pre-wrap;">${escapeHtml(message || "No message provided.")}</div>
+                            <div style="font-family:Inter,system-ui,sans-serif;font-size:12px;font-weight:700;color:#6b3a5e;text-transform:uppercase;letter-spacing:0.18em;margin-bottom:10px;">Message</div>
+                            <div style="background-color:#faf0f5;border-radius:18px;padding:18px 20px;font-family:Inter,system-ui,sans-serif;font-size:15px;color:#2b2b2b;line-height:1.8;white-space:pre-wrap;">${escapeHtml(message || "No message provided.")}</div>
                           </td>
                         </tr>
                       </table>
-                      <div style="margin-top:28px;padding:20px;border-radius:18px;background:linear-gradient(135deg, rgba(99,91,255,0.12), rgba(255,193,79,0.15));font-family:Inter,system-ui,sans-serif;font-size:14px;color:#40394f;line-height:1.75;border:1px solid rgba(99,91,255,0.18);">
-                        <strong style="display:block;margin-bottom:8px;color:#4b32ff;">Action needed</strong>
+                      <div style="margin-top:28px;padding:20px;border-radius:18px;background:linear-gradient(135deg, rgba(107,58,94,0.08), rgba(212,168,83,0.10));font-family:Inter,system-ui,sans-serif;font-size:14px;color:#3d3528;line-height:1.75;border:1px solid rgba(107,58,94,0.15);">
+                        <strong style="display:block;margin-bottom:8px;color:#6b3a5e;">Action needed</strong>
                         Please review this demo request and respond to the customer from your dashboard as soon as possible.
                       </div>
                     </td>
                   </tr>
                   <tr>
-                    <td style="background-color:#f5f3f8;padding:24px;text-align:center;border-radius:0 0 24px 24px;">
-                      <p style="margin:0;font-family:Inter,system-ui,sans-serif;font-size:13px;line-height:1.65;color:#7a7288;">Sent from your Wedding Venue POS contact form.</p>
-                      <p style="margin:8px 0 0;font-family:Inter,system-ui,sans-serif;font-size:13px;line-height:1.65;color:#7a7288;">Powered by your configured SMTP settings.</p>
+                    <td style="background:linear-gradient(135deg, #6b3a5e 0%, #8b4a7a 100%);padding:24px;text-align:center;border-radius:0 0 24px 24px;">
+                      <p style="margin:0;font-family:Inter,system-ui,sans-serif;font-size:13px;line-height:1.65;color:rgba(255,255,255,0.75);">Sent from your Wedding Venue POS contact form.</p>
+                      <p style="margin:8px 0 0;font-family:Inter,system-ui,sans-serif;font-size:13px;line-height:1.65;color:rgba(255,255,255,0.75);">Powered by your configured SMTP settings.</p>
                     </td>
                   </tr>
                 </table>
